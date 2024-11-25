@@ -74,7 +74,7 @@ app.get('/performance', async (req, res) => {
 });
 
 // Iniciar servidor en el puerto 3000
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
